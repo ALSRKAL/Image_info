@@ -8,6 +8,8 @@ OUTPUT:
 
 
 file:///D:\pythonProject\Image_info/C:\Users\moham\Downloads\20220821_183951 (1).jpg-location.html
+
+
 Filename                 : C:\Users\moham\Downloads\20220821_183951 (1).jpg
 Image Size               : (4000, 3000)
 Image Height             : 3000
