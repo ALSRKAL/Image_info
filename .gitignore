@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.tox/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+
+# Local tooling
+.mimosa/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project output
+demo_output/
+*.location.html
+report_*.html
