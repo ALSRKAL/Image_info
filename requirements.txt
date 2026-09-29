@@ -1,0 +1,5 @@
+# Runtime dependency (the only hard one)
+Pillow>=9.2
+
+# Development / testing
+pytest>=7.0

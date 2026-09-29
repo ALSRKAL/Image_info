@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "image-info"
+version = "2.0.0"
+description = "Inspect, audit and clean image metadata - EXIF, GPS, privacy risk, hashes and palettes"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mohammed Alsrkal" }]
+requires-python = ">=3.9"
+keywords = ["exif", "metadata", "privacy", "gps", "image", "pillow"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Graphics",
+]
+dependencies = [
+    "Pillow>=9.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ALSRKAL/Image_info"
+Repository = "https://github.com/ALSRKAL/Image_info"
+Issues = "https://github.com/ALSRKAL/Image_info/issues"
+
+[tool.setuptools.packages.find]
+include = ["image_info*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
