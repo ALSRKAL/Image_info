@@ -33,6 +33,9 @@ dev = [
     "pytest>=7.0",
 ]
 
+[project.scripts]
+imageinfo = "image_info.cli:main"
+
 [project.urls]
 Homepage = "https://github.com/ALSRKAL/Image_info"
 Repository = "https://github.com/ALSRKAL/Image_info"
